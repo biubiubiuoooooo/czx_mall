@@ -1,13 +1,13 @@
-package com.cao.mall.producet;
+package com.cao.mall.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MallProducetApplication {
+public class MallProductApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MallProducetApplication.class, args);
+        SpringApplication.run(MallProductApplication.class, args);
     }
 
 }

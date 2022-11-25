@@ -1,10 +1,10 @@
-package com.cao.mall.producet;
+package com.cao.mall.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MallProducetApplicationTests {
+class MallProductApplicationTests {
 
     @Test
     void contextLoads() {

@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cao.mall</groupId>
-    <artifactId>mall-producet</artifactId>
+    <artifactId>mall-product</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mall-producet</name>
-    <description>mall-producet</description>
+    <name>mall-product</name>
+    <description>mall-product</description>
     <properties>
-        <java.version>15</java.version>
-        <spring-cloud.version>2022.0.0-RC2</spring-cloud.version>
+        <java.version>11</java.version>
+        <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
@@ -53,15 +53,5 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
 
 </project>
